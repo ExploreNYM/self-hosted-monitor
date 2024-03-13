@@ -1,6 +1,9 @@
 # self-hosted-monitor
 Helpfull scripts to get started self monitoring a vps via prometheus, node-exporter, grafana.
 
+#### recommended system requirements of the monitor
+2 CPU cores. 4 GB of memory. 20 GB of free disk space.
+
 
 ### First Setup VPS used for monitoring
 
