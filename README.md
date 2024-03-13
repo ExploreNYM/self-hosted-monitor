@@ -25,7 +25,7 @@ chmod +x ~/self-hosted-monitor/prometheus.sh && ~/self-hosted-monitor/prometheus
 chmod +x ~/self-hosted-monitor/grafana.sh && ~/self-hosted-monitor/grafana.sh
 ```
 
-### You can now access your grafana at http://(youripaddress):3000 if you prefer to use a domain with https follow step 5.
+#### You can now access your grafana at http://(youripaddress):3000 if you prefer to use a domain with https follow step 5.
 
 #### 5. Setup Nginx+Certbot
 
