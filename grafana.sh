@@ -14,7 +14,7 @@ if ! command -v wget &> /dev/null; then
 fi
 
 # Set Grafana version
-grafana_version="9.1.0"
+grafana_version="10.4.0"
 
 # Create a user for Grafana without a home directory
 useradd --no-create-home --shell /bin/false grafana
