@@ -9,7 +9,7 @@ fi
 # Installing necessary dependencies
 echo "Checking and installing necessary dependencies..."
 apt-get update
-apt-get install -y software-properties-common wget
+apt-get install -y software-properties-common wget gnupg
 
 # Add Grafana's GPG key
 wget -q -O - https://packages.grafana.com/gpg.key | apt-key add -
