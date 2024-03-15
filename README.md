@@ -8,6 +8,8 @@ This repository provides scripts to help you set up a self-hosted monitoring sys
 - **Node Exporter**: A Prometheus exporter that collects hardware and OS metrics exposed by *NIX kernels.
 - **Grafana**: An open-source platform for monitoring and observability. It allows you to visualize and alert on your metrics, with support for various data sources, including Prometheus.
 
+<img width="1714" alt="Screenshot 2024-03-16 at 00 23 37" src="https://github.com/ExploreNYM/self-hosted-monitor/assets/60665157/79a0f735-f3ce-4e52-b25c-9c0b7867ba7b">
+
 ### Recommended System Requirements for a Basic Monitor
 
 - 2 CPU cores
