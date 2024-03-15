@@ -57,7 +57,7 @@ chmod +x ~/self-hosted-monitor/grafana.sh && ~/self-hosted-monitor/grafana.sh
 
 ### 5. Decide on Access Method for Grafana
 
-#### Option A: HTTP Access
+#### Option A: HTTP Access (not recommended since it is unencrypted)
 
 For accessing Grafana via HTTP:
 
