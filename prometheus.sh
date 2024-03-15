@@ -85,6 +85,26 @@ ExecStart=/usr/local/bin/prometheus \
 WantedBy=multi-user.target
 EOF
 
+echo "Configuration file has been updated."
+
+echo "Adding default Prometheus Grafana targets..."
+cat > /etc/prometheus/prometheus.yml <<EOF
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'grafana'
+    static_configs:
+      - targets: ['localhost:3000']
+    metrics_path: "/metrics"
+    scheme: "http"
+EOF
+
+echo "Default targets added."
 # Reload systemd, enable and start Prometheus service
 echo "Configuring systemd for Prometheus..."
 systemctl daemon-reload
