@@ -1,6 +1,6 @@
 # Self-Hosted Monitor
 
-This repository provides scripts to help you set up a self-hosting monitoring system for your VPS using Prometheus, Node Exporter, and Grafana. This setup enables you to collect and visualize metrics, and create alerts to monitor the health and performance of your servers.
+This repository provides scripts to help you set up a self-hosted monitoring system for your VPS using Prometheus, Node Exporter, and Grafana. This setup enables you to collect and visualize metrics, and create alerts to monitor the health and performance of your servers.
 
 ### What are Prometheus, Node Exporter, and Grafana?
 
