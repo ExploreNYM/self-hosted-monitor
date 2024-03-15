@@ -109,7 +109,7 @@ chmod +x ~/self-hosted-monitor/node-exporter.sh && ~/self-hosted-monitor/node-ex
 
 ## Verification and Troubleshooting
 
-- After each installation step, verify that the service is running correctly. For example, check if Prometheus and Grafana services are active using `systemctl status prometheus` `systemctl status grafana-server` `systemctl status node-exporter`.
+- After each installation step, verify that the service is running correctly. For example, check if Prometheus and Grafana services are active using `systemctl status prometheus` `systemctl status grafana-server` `systemctl status node_exporter`.
   <img width="241" alt="Screenshot 2024-03-16 at 01 31 53" src="https://github.com/ExploreNYM/self-hosted-monitor/assets/60665157/30c99772-bc48-4272-8d99-102fa8c1380d">
 - Access the Grafana UI by navigating to `http://your-ip-address:3000` or `https://your-domain` based on your setup and confirm that the Prometheus data source is connected.
 - If you encounter issues, check the respective service logs for detailed error messages (e.g., `journalctl -u prometheus`).
